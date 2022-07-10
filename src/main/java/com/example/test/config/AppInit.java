@@ -39,11 +39,11 @@ public class AppInit {
             Purchase purchaseK = purchaseService.findByName("Клавиатура");
 
             infoPurchaseUserService.createAll(List.of(
-                    new InfoPurchaseUser("Rostik", "Ivanov", 18, purchaseT, 5, 145.2, new Date(767676438)),
-                    new InfoPurchaseUser("Evgeni", "Koslov", 20, purchaseS, 10, 86.3, new Date(123)),
-                    new InfoPurchaseUser("Dima","Karpov",30,purchaseSok,2,500,new Date(900)),
-                    new InfoPurchaseUser("Andrei", "Andreev", 26, purchaseN, 1, 300, new Date(999999999)),
-                    new InfoPurchaseUser("Evgeni", "Evgiev", 18, purchaseT, 5, 200, new Date(99999)),
+                    new InfoPurchaseUser("Rostik", "Ivanov", 18, purchaseT, 5, 145.2, new Date(16574148358624L)),
+                    new InfoPurchaseUser("Evgeni", "Koslov", 20, purchaseS, 10, 86.3, new Date(16555555555555L)),
+                    new InfoPurchaseUser("Dima","Karpov",30,purchaseSok,2,500,new Date(16573448358624L)),
+                    new InfoPurchaseUser("Andrei", "Andreev", 26, purchaseN, 1, 300, new Date(16572448358624L)),
+                    new InfoPurchaseUser("Evgeni", "Evgiev", 18, purchaseT, 5, 200, new Date(16571448358624L)),
                     new InfoPurchaseUser("Anton", "Antonov", 18, purchaseS, 7, 800, new Date(99999)),
                     new InfoPurchaseUser("Maria", "Petrova", 31, purchaseS, 8, 7777, new Date(12349)),
                     new InfoPurchaseUser("Svetlana", "Babkina", 26, purchaseS, 2, 843, new Date(12389)),
@@ -81,8 +81,8 @@ public class AppInit {
                     new InfoPurchaseUser("Maria", "Petrova", 31, purchaseS, 8, 7777, new Date(12349)),
                     new InfoPurchaseUser("Svetlana", "Babkina", 26, purchaseS, 2, 843, new Date(12389)),
                     new InfoPurchaseUser("Murad", "Muradov", 22, purchaseK, 3, 811, new Date(77777)),
-                    new InfoPurchaseUser("Viktor", "Makin", 24, purchaseS, 4, 89, new Date(1239)),
-                    new InfoPurchaseUser("Evgeni", "Kinash", 18, purchaseK, 6, 44, new Date(12349))
+                    new InfoPurchaseUser("Viktor", "Makin", 24, purchaseS, 4, 89, new Date(16574148358624L)),
+                    new InfoPurchaseUser("Evgeni", "Kinash", 18, purchaseK, 6, 44, new Date(16574508358624L))
             ));
         }
     }
