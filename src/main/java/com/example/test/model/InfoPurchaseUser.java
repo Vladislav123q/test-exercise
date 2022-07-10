@@ -21,6 +21,16 @@ public class InfoPurchaseUser {
     public InfoPurchaseUser() {
     }
 
+    public InfoPurchaseUser(String name, String lastname, int age, Purchase purchaseItem, int count, double amount, Date purchaseDate) {
+        this.name = name;
+        this.lastname = lastname;
+        this.age = age;
+        this.purchaseItem = purchaseItem;
+        this.count = count;
+        this.amount = amount;
+        this.purchaseDate = purchaseDate;
+    }
+
     public Long getId() {
         return id;
     }

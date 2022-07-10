@@ -12,8 +12,8 @@ public class PurchaseService {
     @Autowired
     private PurchaseRepository purchaseRepository;
 
-    public List<Purchase> createAll(List<Purchase> purchases){
-        return (List<Purchase>) purchaseRepository.saveAll(purchases);
+    public void createAll(List<Purchase> purchases){
+        purchaseRepository.saveAll(purchases);
     }
 
     public Long count(){

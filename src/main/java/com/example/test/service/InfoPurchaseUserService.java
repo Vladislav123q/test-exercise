@@ -1,9 +1,6 @@
 package com.example.test.service;
 
-import com.example.test.model.InfoPurchaseUser;
-import com.example.test.model.ReportAge;
-import com.example.test.model.ReportFio;
-import com.example.test.model.ReportPurchase;
+import com.example.test.model.*;
 import com.example.test.repository.InfoPurchaseUserRepository;
 import com.example.test.repository.PurchaseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -103,6 +100,9 @@ public class InfoPurchaseUserService {
         return reportAges;
     }
 
+    public void createAll(List<InfoPurchaseUser> infoPurchaseUsers){
+        infoPurchaseUserRepository.saveAll(infoPurchaseUsers);
+    }
 
     private Date convertToDateViaInstant(LocalDate dateToConvert) {
         return java.util.Date.from(dateToConvert.atStartOfDay()
